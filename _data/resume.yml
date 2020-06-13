@@ -79,10 +79,10 @@ main: #简历主要内容，
         detail: 使用bootstrap+jQuery搭建，兼容移动端，
       - title: 活速帮微信小程序
         duration: 2017年10月 - 2020年6月
-        detail: 包括活速帮，活速帮商家端，活速帮母婴顾问端三个小程序，
+        detail: 包括活速帮，活速帮商家端，活速帮母婴顾问端三个微信小程序，
       - title: 活速帮管理后台
         duration: 2017年10月 - 2020年6月
-        detail: 使用vue+fetch+elementUI搭建，
+        detail: 使用vue+elementUI+ECharts搭建管理后台，
       # sub: 前端工程师
       # - title: Project Name
       #   summary: Projects' introduction or summary
@@ -94,7 +94,7 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
   - type: others #ID可以为空
-    name: "前端展望"
+    name: "展望"
     content: #选择需要的格式
       # - 单行文字
       # - title: "加粗:"
@@ -106,8 +106,9 @@ others: #其他列表显示
       #     - coding
       - title: 前端技术展望
         list:
-          - MVVM开发范式已经广泛存在去前端框架和各种APP内置小程序中，
-          - Nodejs
+          - APP内置小程序已经成为新的商业模式，使用UNIAPP等跨平台开发更能提高开发效率。
+          - nodejs让前端更能接触到接口定义，业务处理等后端的工作内容，未来前端工作内容会更丰富对整个开发项目的业务也更加具有掌控力。
+          -
 #- type:
 #  name: '其他'
 #  content: #选择需要的格式
