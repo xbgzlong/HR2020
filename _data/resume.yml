@@ -15,9 +15,9 @@ contact: #联系方式连接等3~5行
   - text: "15224226453"
     href: "tel:15224226453"
     icon: "icons/phone.svg"
-  - text: "your-website.com"
-    href: "http://your-website.com"
-    icon: "icons/web.svg"
+  # - text: "your-website.com"
+  #   href: "http://your-website.com"
+  #   icon: "icons/web.svg"
   # - text: "GitHubID"
   #   href: "https://github.com/NewFuture"
   #   icon: "icons/github.svg"
@@ -44,10 +44,9 @@ main: #简历主要内容，
     content:
       - title: 编程语言
         items: #itmems 可以小块的方式显示
-          - html
-          - css
-          - javascript
-          - sql
+          - 精通html,css,javascript,
+          - 熟悉VUE，Bootstrap,elementUI,jQuery，WEUI等前端框架，
+          - 了解nodejs,sql，
       # - title: Skill Group
       #   summary: Consectetur, Adipiscing, Elit
 
@@ -58,7 +57,7 @@ main: #简历主要内容，
         sub: 济南三道信息技术有限公司
         duration: "2017年10月 - 2020年6月"
         tags:
-          - 标签
+        # - 标签
         summary: 工作总结
         detail: 因个人的家庭原因从该公司离职，所以仍然谢谢公司给予的供职机会。我参与了三道科技的所有的前端项目，从移动端到浏览器端到APP内置小程序，在工作中接触了很多的知识也积累了些经验，从工作中我得到的最重要的体会是如果一行代码要用两次就把它封装成轮子。
         open: open
@@ -106,11 +105,11 @@ others: #其他列表显示
       #     - coding
       - title: 前端技术展望
         list:
-          - APP内置小程序已经成为新的商业模式，使用UNIAPP等跨平台开发更能提高开发效率。
-          - nodejs让前端更能接触到接口定义，业务处理等后端的工作内容，未来前端工作内容会更丰富对整个开发项目的业务也更加具有掌控力。
-          -
+          - APP内置小程序已经成为新的商业模式，希望新工作能学到新知识和新工具，比如使用UNIAPP等跨平台开发更能提高开发效率。
+          - 希望在新工作中，能够更加深入的了解nodejs技术，nodejs让前端更能接触到接口定义，业务处理，数据存取等后端的工作内容，未来前端工作内容会更丰富对整个开发项目的业务也更加具有掌控力。
+
 #- type:
-#  name: '其他'
+#  name: '其他'，
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
@@ -121,8 +120,8 @@ footer: #脚注多组
   screen:
     - text: "简历脚注"
     #   href: '/'
-    - text: "Made with &hearts; by NewFuture"
-      href: "https://github.com/NewFuture/CV/"
+    - text: "Made with &hearts; by Elon"
+      # href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
